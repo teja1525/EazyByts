@@ -1,0 +1,52 @@
+{
+  "child_msg": [
+    "Want to hear a joke ?",
+    "What about some news ?",
+    "Wanna get motivated ?",
+    "Terminate chat"
+  ],
+  "children": [
+    {
+      "child_msg": ["Funny Joke", "Very funny Joke", "PJ :)", "Terminate chat"],
+      "children": [
+        {
+          "message": "My friend thinks he is smart. He told me an onion is the only food that makes you cry, so I threw a coconut at his face",
+          "type": "normal"
+        },
+        {
+          "message": "I went to Bank of America to deposit a check, and they asked me for ID. I said, “Are you telling me other people are trying to put money into my account and you’re telling them no?",
+          "type": "normal"
+        },
+        {
+          "message": "What did the fish say when he swam into a wall? Dam.",
+          "type": "normal"
+        }
+      ]
+    },
+    {
+      "child_msg": [
+        "Local News",
+        "National News",
+        "World News",
+        "Terminate chat"
+      ],
+      "children": [
+        {
+          "message": "getNews()",
+          "type": "function"
+        },
+        {
+          "message": "India is the best",
+          "type": "normal"
+        },
+        {
+          "message": "India becomes a super power",
+          "type": "normal"
+        }
+      ]
+    },
+    {
+      "message": "You're amazing and everything you do will make a positive effect on the world"
+    }
+  ]
+}
